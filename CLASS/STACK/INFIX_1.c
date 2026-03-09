@@ -1,5 +1,5 @@
 //ch.sc.u4aie25020
-//infix to prefix
+//infix to postfix
 
 #include <stdio.h>
 #include <ctype.h>
@@ -52,22 +52,16 @@ int main(){
                 postfix[j++] = pop();
             pop();
         }
-
         else{
             while(priority(stack[top]) >= priority(infix[i]))
                 postfix[j++] = pop();
             push(infix[i]);
         }
-
         i++;
     }
-
     while(stack[top] != '#')
         postfix[j++] = pop();
-
     postfix[j] = '\0';
-
     printf("Postfix Expression: %s",postfix);
-
     return 0;
 }
