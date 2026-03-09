@@ -1,4 +1,3 @@
-//CH.SC.U4AIE25020
 #include<stdio.h>
 #include<stdlib.h>
 struct Node
