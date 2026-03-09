@@ -1,5 +1,5 @@
 
-//ch.sc.u4aie25040
+//ch.sc.u4aie25020
 //Array-7: submatrix sum
 #include <stdio.h>
 
