@@ -1,5 +1,5 @@
 //ch.sc.u4aie25020
-//Array-1: numbers to martian symbols
+//numbers to martian symbols
 #include <stdio.h>
 
 void toMartian(int n) {
